@@ -1,0 +1,70 @@
+body{
+    margin:0px;
+    padding:0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.Project_Picture{
+    width: 90%;
+    height: 90%;
+}
+
+#Profile_Picture{
+    width: 200px;
+    height: auto;
+}
+
+header a {
+    text-decoration: none;
+    padding-right: 10px;
+}
+
+nav{
+    float:right;
+    padding-top: 15px;
+}
+
+h1{
+    font-size: 3em;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+h2{
+    font-size: 1em;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+#Granda_Five{
+    grid-area: ImageOne;
+    justify-self: center;
+    
+}
+
+#Blue_Eyes_White_Magician{
+    grid-area: ImageTwo;
+    justify-self: center;
+}
+
+#Magic_Card_Finder{
+    grid-area: ImageThree;
+    justify-self: center;
+}
+
+#Sun_Runner{
+    grid-area: ImageFour;
+    justify-self: center;
+}
+
+#Projects{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "ImageOne ImageTwo"
+    "ImageThree ImageFour";
+    row-gap: 20px;
+}
