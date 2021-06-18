@@ -59,12 +59,20 @@ h2{
     justify-self: center;
 }
 
+#Protein_Protector{
+    grid-area:ImageFive;
+    justify-self: center;
+    max-height: 70%;
+    max-width: auto;
+}
+
 #Projects{
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto;
     grid-template-areas: 
     "ImageOne ImageTwo"
-    "ImageThree ImageFour";
+    "ImageThree ImageFour"
+    "ImageFive ImageSix";
     row-gap: 20px;
 }
