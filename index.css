@@ -38,25 +38,117 @@ h2{
     margin-bottom: 50px;
 }
 
+.Granda{
+    position: relative;
+    text-align:center;
+    Color:white;
+}
+
+.GrandaText{
+    position: absolute;
+    Top: 40%;
+    left:10%;
+    font-size: 3em;
+}
+
 #Granda_Five{
     grid-area: ImageOne;
     justify-self: center;
-    
+    -webkit-filter: grayscale(0);
+    -webkit-transition: all .5s ease-in-out;
+}
+
+#Granda_Five:hover{
+    -webkit-filter: grayscale(0.7);
+    -webkit-transform: scale(1.1);
+}
+
+.BEWM{
+    position: relative;
+    text-align:center;
+    Color:white;
+}
+
+.BEWMText{
+    position: absolute;
+    top: 40%;
+    left:10%;
+    font-size: 3em;
 }
 
 #Blue_Eyes_White_Magician{
     grid-area: ImageTwo;
     justify-self: center;
+    -webkit-filter: grayscale(0);
+    -webkit-transition: all .5s ease-in-out;
+}
+
+#Blue_Eyes_White_Magician:hover{
+    -webkit-filter: grayscale(0.7);
+    -webkit-transform: scale(1.1);
+}
+
+.MTG{
+    position: relative;
+    text-align:center;
+    Color:white;
+}
+
+.MTGText{
+    position: absolute;
+    top: 40%;
+    left:10%;
+    font-size: 3em;
 }
 
 #Magic_Card_Finder{
     grid-area: ImageThree;
     justify-self: center;
+    -webkit-filter: grayscale(0);
+    -webkit-transition: all .5s ease-in-out;
+}
+
+#Magic_Card_Finder:hover{
+    -webkit-filter: grayscale(0.7);
+    -webkit-transform: scale(1.1);
+}
+
+.Sun_Runner{
+    position: relative;
+    text-align:center;
+    Color:white;
+}
+
+.Sun_Runner_Text{
+    position: absolute;
+    top: 40%;
+    left:10%;
+    font-size: 3em;
 }
 
 #Sun_Runner{
     grid-area: ImageFour;
     justify-self: center;
+    -webkit-filter: grayscale(0);
+    -webkit-transition: all .5s ease-in-out;
+}
+
+#Sun_Runner:hover{
+    -webkit-filter: grayscale(0.7);
+    -webkit-transform: scale(1.1);
+}
+
+.Protein_Protector{
+    position: relative;
+    text-align:center;
+    Color:white;
+}
+
+.Protein_Protector_Text{
+    position: absolute;
+    top: 30%;
+    left:10%;
+    font-size: 3em;
 }
 
 #Protein_Protector{
@@ -64,6 +156,13 @@ h2{
     justify-self: center;
     max-height: 70%;
     max-width: auto;
+    -webkit-filter: grayscale(0);
+    -webkit-transition: all .5s ease-in-out;
+}
+
+#Protein_Protector:hover{
+    -webkit-filter: grayscale(0.7);
+    -webkit-transform: scale(1.1);
 }
 
 #Projects{
