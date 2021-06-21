@@ -4,7 +4,18 @@ body{
     padding-left: 20px;
     padding-right: 20px;
     font-family: 'Quicksand', sans-serif;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
 
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
 }
 
 #Profile_Picture{
@@ -220,11 +231,6 @@ textarea{
     padding-top: 10px;
     width: 100px;
     margin-bottom: 50px;
-}
-
-main{
-    animation: fadeIn; 
-    animation-duration: 2s;
 }
 
 
