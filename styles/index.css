@@ -6,6 +6,11 @@ body{
     font-family: 'Quicksand', sans-serif;
 }
 
+main{
+    animation: fadeIn; 
+    animation-duration: 1.5s;
+}
+
 .Project_Picture{
     width: 90%;
     height: 90%;
@@ -36,6 +41,12 @@ h2{
     font-size: 1em;
     margin-top: 0px;
     margin-bottom: 50px;
+}
+
+main h1{
+    margin-left:45px;
+    margin-bottom: 20px;
+    text-decoration: underline;
 }
 
 .Granda{
@@ -168,7 +179,7 @@ h2{
 #Projects{
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: auto;
+    grid-template-rows: auto; 
     grid-template-areas: 
     "ImageOne ImageTwo"
     "ImageThree ImageFour"

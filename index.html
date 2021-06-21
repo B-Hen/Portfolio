@@ -5,17 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Breanna Henriquez</title>
-    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="styles/index.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
-    <script src="main.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <script src="scripts/main.js"></script>
 </head>
 <body>
     <header>
         <nav>
-            <a href="">Projects</a>
-            <a href="">About</a>
-            <a href="">Contact</a>
+            <a href="index.html">Projects</a>
+            <a href="about.html">About</a>
             <a href="">Resume</a>
         </nav>
         
@@ -24,6 +24,9 @@
     </header>
 
     <main>
+
+        <h1>Projects:</h1>
+
         <div id="Projects">
             <div class="Granda">
                 <a href=""><img src="images/grandaFive.PNG" alt="Image of Granda Five" class="Project_Picture" id="Granda_Five"></a>
@@ -45,35 +48,7 @@
                 <a href=""><img src="images/proteinprotectors.png" alt="Image of Protein Protector" class="Project_Picture" id="Protein_Protector"></a>
                 <div class="Protein_Protector_Text" hidden>Protein Protectors</div>
             </div>
-        </div>
-
-        <div id="About">
-            <img src="images/Profile_Picture.png" alt="Image of Breanna Henriquez" id="Profile_Picture">
-            <p>I am currently a fourth year game design and development student at Rochester Insititue of Technology with a passion for making games and coding.
-                I have experience with C#, C++, HTML, CSS, JavaScript, Maya, Unity, and the Adobe Cloud. In my free time I enjoy playing video games, watching anime, reading manga,
-                and hanging out with my friends. I enjoy working in small groups and I am always willingly and ready to learn whenever I can. I am currently looking for a Game
-                Design and or Software Engineering Co-op for Spring 2022. In the future I hope to make meaningful games that people will be able to enjoying for a long time</p>
-        </div>
-
-        <div id="Contact"></div>
-
-            <h3 id="contact">Contact Me</h3>
-            <form method="post" action="?php echo $_SERVER[&quotPHP_SELF&quot];?&gt">
-            
-            <label>Name</label>
-            <input name="name" placeholder="Type Here">
-            
-            <label>Email</label>
-            <input name="email" type="email" placeholder="person@sample.com">
-            
-            <label>Message</label>
-            <textarea name="message" placeholder="Type Here"></textarea>
-            
-            <input id="submit" name="submit" type="submit" value="Submit">
-        
-            </form>
-        </div>
-        
+        </div>        
     </main>
 
     <footer>
