@@ -1,12 +1,15 @@
 body{
     margin:0px;
     padding:0px;
-    padding-left: 20px;
-    padding-right: 20px;
     font-family: 'Quicksand', sans-serif;
     animation: fadeInAnimation ease 2s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
+}
+
+main, header{
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 @keyframes fadeInAnimation {
@@ -16,6 +19,22 @@ body{
     100% {
         opacity: 1;
      }
+}
+
+a:link{
+    color:#BE2F29;
+}
+
+a:visited{
+    color:#1A2C42;
+}
+
+a:hover{
+   color:#ECAF44;
+}
+
+a:active{
+    color:#0C1115;
 }
 
 .Project_Picture{
@@ -42,12 +61,14 @@ h1{
     font-size: 3em;
     margin-top: 20px;
     margin-bottom: 0px;
+    color:#1A2C42;
 }
 
 h2{
     font-size: 1em;
     margin-top: 0px;
     margin-bottom: 50px;
+    color:#BE2F29;
 }
 
 main h1{
@@ -192,4 +213,20 @@ main h1{
     "ImageThree ImageFour"
     "ImageFive ImageSix";
     row-gap: 20px;
+}
+
+footer{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #0C1115;
+    color:#ECAF44;
+    box-shadow: 0 50vh 0 50vh #0C1115;
+    text-align: center;
+}
+
+footer img{
+    width: 25px;
+    height: auto;
+    padding-right: 10px;
+    padding-bottom: 5px;
 }
