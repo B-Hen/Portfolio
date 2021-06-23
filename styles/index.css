@@ -88,6 +88,7 @@ main h1{
     Top: 40%;
     left:10%;
     font-size: 3em;
+    pointer-events: none;
 }
 
 #Granda_Five{
@@ -113,6 +114,7 @@ main h1{
     top: 40%;
     left:10%;
     font-size: 3em;
+    pointer-events: none;
 }
 
 #Blue_Eyes_White_Magician{
@@ -138,6 +140,7 @@ main h1{
     top: 40%;
     left:10%;
     font-size: 3em;
+    pointer-events: none;
 }
 
 #Magic_Card_Finder{
@@ -163,6 +166,7 @@ main h1{
     top: 40%;
     left:10%;
     font-size: 3em;
+    pointer-events: none;
 }
 
 #Sun_Runner{
@@ -188,6 +192,7 @@ main h1{
     top: 30%;
     left:10%;
     font-size: 3em;
+    pointer-events: none;
 }
 
 #Protein_Protector{
