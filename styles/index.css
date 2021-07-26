@@ -37,24 +37,16 @@ a:active{
     color:#0C1115;
 }
 
-.Project_Picture{
-    width: 90%;
-    height: 90%;
-}
-
-#Profile_Picture{
-    width: 200px;
-    height: auto;
-}
-
 header a {
     text-decoration: none;
-    padding-right: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 nav{
-    float:right;
+    text-align: center;
     padding-top: 15px;
+    padding-bottom: 0px;
 }
 
 h1{
@@ -62,6 +54,7 @@ h1{
     margin-top: 20px;
     margin-bottom: 0px;
     color:#1A2C42;
+    text-align: center;
 }
 
 h2{
@@ -69,12 +62,19 @@ h2{
     margin-top: 0px;
     margin-bottom: 50px;
     color:#BE2F29;
+    text-align: center;
 }
 
 main h1{
-    margin-left:45px;
     margin-bottom: 20px;
     text-decoration: underline;
+    text-align: left;
+}
+
+.Project_Picture{
+    width: 90%;
+    height: 90%;
+    margin-bottom: 20px;
 }
 
 .Granda{
@@ -85,14 +85,13 @@ main h1{
 
 .GrandaText{
     position: absolute;
-    Top: 40%;
+    Top: 70%;
     left:10%;
-    font-size: 3em;
+    font-size: 1.5em;
     pointer-events: none;
 }
 
 #Granda_Five{
-    grid-area: ImageOne;
     justify-self: center;
     -webkit-filter: grayscale(0);
     -webkit-transition: all .5s ease-in-out;
@@ -111,14 +110,13 @@ main h1{
 
 .BEWMText{
     position: absolute;
-    top: 40%;
-    left:10%;
-    font-size: 3em;
+    top: 70%;
+    left:7%;
+    font-size: 1.5em;
     pointer-events: none;
 }
 
 #Blue_Eyes_White_Magician{
-    grid-area: ImageTwo;
     justify-self: center;
     -webkit-filter: grayscale(0);
     -webkit-transition: all .5s ease-in-out;
@@ -137,14 +135,13 @@ main h1{
 
 .MTGText{
     position: absolute;
-    top: 40%;
-    left:10%;
-    font-size: 3em;
+    top: 70%;
+    left:3%;
+    font-size: 1.5em;
     pointer-events: none;
 }
 
 #Magic_Card_Finder{
-    grid-area: ImageThree;
     justify-self: center;
     -webkit-filter: grayscale(0);
     -webkit-transition: all .5s ease-in-out;
@@ -163,14 +160,13 @@ main h1{
 
 .Sun_Runner_Text{
     position: absolute;
-    top: 40%;
+    top: 70%;
     left:10%;
-    font-size: 3em;
+    font-size: 1.5em;
     pointer-events: none;
 }
 
 #Sun_Runner{
-    grid-area: ImageFour;
     justify-self: center;
     -webkit-filter: grayscale(0);
     -webkit-transition: all .5s ease-in-out;
@@ -189,14 +185,13 @@ main h1{
 
 .Protein_Protector_Text{
     position: absolute;
-    top: 30%;
+    top: 80%;
     left:10%;
-    font-size: 3em;
+    font-size: 1.5em;
     pointer-events: none;
 }
 
 #Protein_Protector{
-    grid-area:ImageFive;
     justify-self: center;
     max-height: 70%;
     max-width: auto;
@@ -209,18 +204,8 @@ main h1{
     -webkit-transform: scale(1.1);
 }
 
-#Projects{
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto; 
-    grid-template-areas: 
-    "ImageOne ImageTwo"
-    "ImageThree ImageFour"
-    "ImageFive ImageSix";
-    row-gap: 20px;
-}
-
 footer{
+    margin-top: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: #0C1115;
@@ -234,4 +219,208 @@ footer img{
     height: auto;
     padding-right: 10px;
     padding-bottom: 5px;
+}
+
+
+@media only screen and (min-width: 768px){
+
+    .Project_Picture{
+        width: 90%;
+        height: 90%;
+        margin-bottom: 0px;
+    }
+
+    header a {
+        text-decoration: none;
+        padding-right: 10px;
+        padding-left: 0px;
+    }
+
+    nav{
+        float:right;
+        padding-top: 15px;
+        padding-bottom: 0px;
+    }
+
+    h1{
+        font-size: 3em;
+        margin-top: 20px;
+        margin-bottom: 0px;
+        color:#1A2C42;
+        text-align: left;
+    }
+
+    h2{
+        font-size: 1em;
+        margin-top: 0px;
+        margin-bottom: 50px;
+        color:#BE2F29;
+        text-align: left;
+    }
+
+    main h1{
+        margin-left:45px;
+        margin-bottom: 20px;
+        text-decoration: underline;
+        text-align: left;
+    }
+
+    .Granda{
+        position: relative;
+        text-align:center;
+        Color:white;
+    }
+
+    .GrandaText{
+        position: absolute;
+        Top: 40%;
+        left:10%;
+        font-size: 2em;
+        pointer-events: none;
+    }
+
+    #Granda_Five{
+        grid-area: ImageOne;
+        justify-self: center;
+        -webkit-filter: grayscale(0);
+        -webkit-transition: all .5s ease-in-out;
+    }
+
+    #Granda_Five:hover{
+        -webkit-filter: grayscale(0.7);
+        -webkit-transform: scale(1.1);
+    }
+
+    .BEWM{
+        position: relative;
+        text-align:center;
+        Color:white;
+    }
+
+    .BEWMText{
+        position: absolute;
+        top: 40%;
+        left:10%;
+        font-size: 2em;
+        pointer-events: none;
+    }
+
+    #Blue_Eyes_White_Magician{
+        grid-area: ImageTwo;
+        justify-self: center;
+        -webkit-filter: grayscale(0);
+        -webkit-transition: all .5s ease-in-out;
+    }
+
+    #Blue_Eyes_White_Magician:hover{
+        -webkit-filter: grayscale(0.7);
+        -webkit-transform: scale(1.1);
+    }
+
+    .MTG{
+        position: relative;
+        text-align:center;
+        Color:white;
+    }
+
+    .MTGText{
+        position: absolute;
+        top: 40%;
+        left:10%;
+        font-size: 2em;
+        pointer-events: none;
+    }
+
+    #Magic_Card_Finder{
+        grid-area: ImageThree;
+        justify-self: center;
+        -webkit-filter: grayscale(0);
+        -webkit-transition: all .5s ease-in-out;
+    }
+
+    #Magic_Card_Finder:hover{
+        -webkit-filter: grayscale(0.7);
+        -webkit-transform: scale(1.1);
+    }
+
+    .Sun_Runner{
+        position: relative;
+        text-align:center;
+        Color:white;
+    }
+
+    .Sun_Runner_Text{
+        position: absolute;
+        top: 40%;
+        left:10%;
+        font-size: 2em;
+        pointer-events: none;
+    }
+
+    #Sun_Runner{
+        grid-area: ImageFour;
+        justify-self: center;
+        -webkit-filter: grayscale(0);
+        -webkit-transition: all .5s ease-in-out;
+    }
+
+    #Sun_Runner:hover{
+        -webkit-filter: grayscale(0.7);
+        -webkit-transform: scale(1.1);
+    }
+
+    .Protein_Protector{
+        position: relative;
+        text-align:center;
+        Color:white;
+    }
+
+    .Protein_Protector_Text{
+        position: absolute;
+        top: 30%;
+        left:10%;
+        font-size: 2em;
+        pointer-events: none;
+    }
+
+    #Protein_Protector{
+        grid-area:ImageFive;
+        justify-self: center;
+        max-height: 70%;
+        max-width: auto;
+        -webkit-filter: grayscale(0);
+        -webkit-transition: all .5s ease-in-out;
+    }
+
+    #Protein_Protector:hover{
+        -webkit-filter: grayscale(0.7);
+        -webkit-transform: scale(1.1);
+    }
+
+    #Projects{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto; 
+        grid-template-areas: 
+        "ImageOne ImageTwo"
+        "ImageThree ImageFour"
+        "ImageFive ImageSix";
+        row-gap: 20px;
+    }
+
+    footer{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: #0C1115;
+        color:#ECAF44;
+        box-shadow: 0 50vh 0 50vh #0C1115;
+        text-align: center;
+    }
+
+    footer img{
+        width: 25px;
+        height: auto;
+        padding-right: 10px;
+        padding-bottom: 5px;
+    }
 }
